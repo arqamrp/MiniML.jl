@@ -1,0 +1,12 @@
+name = "MiniML"
+uuid = "d56e20d8-6781-4bed-8c1b-43d7ccb659c9"  
+authors = ["Arqam Rizwan Patel <arqamrp@gmail.com>"] 
+version = "0.1.0"
+description = "A smol Julia package from scratch for deep learning."
+license = "MIT"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
