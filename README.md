@@ -10,7 +10,7 @@ MiniML is a lightweight Julia package for deep learning built from scratch.
 ## Installation
 ```julia
 using Pkg
-Pkg.add("https://github.com/arqamrp/MiniML.jl")
+Pkg.add(url = "https://github.com/arqamrp/MiniML.jl")
 ```
 
 Take a look at the examples folder!
