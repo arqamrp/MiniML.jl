@@ -2,7 +2,7 @@
 
 
 # Classification accuracy
-function accuracy(model::NeuralNet, X_test::Tensor, y_test::Tensor)
+function classification_accuracy(model::NeuralNet, X_test::Tensor, y_test::Tensor)
     preds = forward(model, X_test, postprocess = true) 
     preds = preds.data
     preds = argmax(preds; dims = 1)
