@@ -1,3 +1,4 @@
+using Random 
 function make_batches(X::AbstractArray, y::AbstractArray, batch_size::Integer)
     n_samples = size(X)[2]
     shuffled_indices = randperm(n_samples)
